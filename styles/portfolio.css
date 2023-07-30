@@ -1,0 +1,20 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 100px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav li {
+  margin-left: 40px;
+}
+#name-style {
+  color: orange;
+}
