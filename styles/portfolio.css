@@ -18,3 +18,14 @@ nav li {
 #name-style {
   color: orange;
 }
+.btn-style {
+  background-color: orange;
+  transition: background-color 0.5s;
+  color: white;
+  border-radius: 5px;
+  border-color: orange;
+  padding: 5px 8px;
+}
+button:hover {
+  background-color: coral;
+}
