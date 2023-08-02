@@ -3,6 +3,24 @@
   font-family: "Roboto", sans-serif;
   font-family: "Work Sans", sans-serif;
 }
+body{
+  max-width: 1600px;
+  max-height: 780px;
+  margin: 0 auto;
+}
+.header {
+  max-width: 1600px;
+  max-height: 837px;
+background-color: FFF8F3;
+background-image: url(/images/header_bg.png),url(/images/developer.png);
+background-repeat: no-repeat;
+background-position: bottom right, left;
+}
+.banner{
+  display: flex;
+  align-items: center;
+  margin: 0 10px 0 100px;
+  }
 nav {
   display: flex;
   justify-content: space-between;
@@ -11,6 +29,7 @@ nav {
 nav ul {
   list-style: none;
   display: flex;
+  align-items: center;
 }
 nav li {
   margin-left: 40px;
@@ -24,8 +43,59 @@ nav li {
   color: white;
   border-radius: 5px;
   border-color: orange;
-  padding: 5px 8px;
+  padding: 8px 12px;
 }
 button:hover {
   background-color: coral;
+}
+.banner-title{
+  color:#181818;
+  font-size: 75px;
+  font-weight: 700;
+}
+.banner-subtitle{
+color:#474747;
+font-size: 45px;
+font-weight: 700;
+}
+.banner-paragraph{
+  color:#757575 ;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+main{
+  max-width: 1540px;
+  max-height: 550px;
+  margin: 0 auto;
+}
+.about{
+margin: 123px 230px;
+border-radius: 10px;
+background: #FFF8F3;
+padding: 80px 120px;
+text-align: center;
+}
+.section-title{
+margin-bottom: 10px;
+}
+.section-description{
+font-weight: 400;
+font-size: 18px;
+color: var(--dark-03, #757575);
+margin-bottom: 10px;
+}
+.about-info{
+  display: flex;
+  justify-content: space-around ;
+}
+.what-i-do{
+  margin: 123px 230px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.info-description{
+color: var(--dark-03, #181818);
+font-size: 20px;
+font-weight: 600;
 }
