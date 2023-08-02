@@ -99,3 +99,18 @@ color: var(--dark-03, #181818);
 font-size: 20px;
 font-weight: 600;
 }
+.skillset{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.skill{
+  margin-top: 50px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  width: 180px;
+height: 250px;
+
+}
